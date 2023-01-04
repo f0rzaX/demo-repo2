@@ -31,7 +31,7 @@ def merge_two_sorted_arrays(arr1, arr2, arr):
             arr[k] = arr2[j]
             j += 1
         k += 1
-
+        
     while i < len_arr1:
         arr[k] = arr1[i]
         i += 1
